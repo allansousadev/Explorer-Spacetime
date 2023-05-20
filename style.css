@@ -14,7 +14,7 @@ nav {
   padding: 64px;
 }
 
-.memory {
+.memory, a {
   color: #eaeaea;
   display: flex;
   flex-direction: column;
@@ -38,8 +38,49 @@ nav {
   object-fit: cover;
   border-radius: 8px;
 }
+.memory p {
+  font-size: 18px;
+  color: #bebebf;
+  line-height: 28px;
+}
 
 .memory span {
+  font-size: 18px;
+  color: #bebebf;
+  line-height: 28px;
+}
+
+.music, a {
+  color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.music small {
+  color : #bebebf;
+  font-size: 12px;     
+}
+
+.music h1 {
+  font-size: 32px;
+}
+
+.music img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.music p, ol {
+  font-size: 18px;
+  color: #bebebf;
+  line-height: 28px;
+}
+
+.music span {
   font-size: 18px;
   color: #bebebf;
   line-height: 28px;
