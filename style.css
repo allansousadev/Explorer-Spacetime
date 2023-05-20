@@ -7,6 +7,7 @@
 body {
   background-color: #121215;
   color: #eaeaea;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -14,14 +15,17 @@ nav {
 }
 
 .memory {
+  color: #eaeaea;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  text-decoration: none;
+  margin-bottom: 64px;
 }
 
 .memory small {
   color : #bebebf;
-  font-size: 12px;
+  font-size: 12px;     
 }
 
 .memory h1 {
@@ -35,7 +39,7 @@ nav {
   border-radius: 8px;
 }
 
-.memory p {
+.memory span {
   font-size: 18px;
   color: #bebebf;
   line-height: 28px;
