@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121215;
+  color: #eaeaea;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  padding: 64px;
+}
+
+.music, a {
+  color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.music small {
+  color : #bebebf;
+  font-size: 12px;     
+}
+
+.music h1 {
+  font-size: 32px;
+}
+
+.music img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.music p, ol {
+  font-size: 18px;
+  color: #bebebf;
+  line-height: 28px;
+}
+
+.music span {
+  font-size: 18px;
+  color: #bebebf;
+  line-height: 28px;
+}
