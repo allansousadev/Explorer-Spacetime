@@ -5,7 +5,7 @@
 </p>
 
 ## 🖥️ Projeto
-Este é um projeto Web Resposivo de uma cápsula do tempo, para exibir memórias de uma linha do tempo.
+Este é um projeto Web Responsivo de uma cápsula do tempo, para exibir memórias de uma linha do tempo.
 
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido durante o NLW da Rockeatseat com as seguintes tecnologias:
